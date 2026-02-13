@@ -1,0 +1,27 @@
+gaji_per_jam = float(input("Masukkan gaji per jam: "))
+jam_per_minggu = float(input("Masukkan jumlah jam kerja per minggu: "))
+
+total_kotor = gaji_per_jam * jam_per_minggu * 5
+
+pajak = 0.14 * total_kotor
+
+total_bersih = total_kotor - pajak
+
+pakaian = 0.10 * total_bersih
+alat_tulis = 0.01 * total_bersih
+
+sisa = total_bersih - (pakaian + alat_tulis)
+
+sedekah = 0.25 * sisa
+
+anak_yatim = 0.30 * sedekah
+kaum_dhuafa = 0.70 * sedekah
+
+print("\n=== HASIL PERHITUNGAN ===")
+print("Pendapatan sebelum pajak       : Rp %.2f" % total_kotor)
+print("Pendapatan setelah pajak       : Rp %.2f" % total_bersih)
+print("Uang untuk pakaian & aksesoris : Rp %.2f" % pakaian)
+print("Uang untuk alat tulis          : Rp %.2f" % alat_tulis)
+print("Jumlah uang yang disedekahkan  : Rp %.2f" % sedekah)
+print("Untuk anak yatim               : Rp %.2f" % anak_yatim)
+print("Untuk kaum dhuafa              : Rp %.2f" % kaum_dhuafa)
