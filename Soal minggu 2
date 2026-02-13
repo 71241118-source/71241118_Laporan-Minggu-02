@@ -1,0 +1,30 @@
+SOAL 1
+Menghitung Berat Badan Berdasarkan BMI
+Penjelasan
+Rumus BMI:
+BMI = berat / tinggi ** 2
+
+SOAL 2
+Menghitung Fungsi f(x)
+Diketahui fungsi:
+f(x)=2x3+2x+x15
+
+Penjelasan
+Program menerima input bilangan bulat dari pengguna, lalu menghitung sesuai rumus di atas.
+
+​SOAL 3
+Perhitungan Penghasilan dan Sedekah Budi
+Penjelasan
+
+Langkah perhitungan:
+
+Hitung total pendapatan sebelum pajak
+= gaji per jam × jam kerja per minggu × 5 minggu
+Pajak = 14% dari total pendapatan
+Pendapatan bersih = total − pajak
+Pakaian & aksesoris = 10% dari pendapatan bersih
+Alat tulis = 1% dari pendapatan bersih
+Sisa uang = pendapatan bersih − (pakaian + alat tulis)
+Sedekah = 25% dari sisa uang
+Anak yatim = 30% dari sedekah
+Kaum dhuafa = 70% dari sedekah
